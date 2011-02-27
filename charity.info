@@ -1,0 +1,16 @@
+; $Id: charity.info,v 1.3 2009/10/08 16:12:13 callison Exp $
+name = Charity
+description = A simple, table-less theme with a green background.
+core = 7.x
+engine = phptemplate
+regions[header_left] = Header Left
+regions[help] = Help
+regions[highlighted] = Highlighted
+regions[sidebar] = Sidebar
+regions[content_top] = Content Top
+regions[content] = Content
+regions[content_bottom] = Content Bottom
+regions[footer] = Footer
+stylesheets[all][] = style.css
+;settings[charity_girl] = 1
+;settings[charity_sidebar-side] = right
